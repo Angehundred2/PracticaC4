@@ -1,0 +1,174 @@
+{
+    "trainers": [
+      {
+        "id": 1,
+        "name": "Médium",
+        "image": "img/imagen1.png",
+        "pokemon": [
+          {"id": 1, "name": "Tyranitar"},
+          {"id": 2, "name": "Sceptile"},
+          {"id": 3, "name": "Gallade"},
+          {"id": 4, "name": "Mewtwo"},
+          {"id": 5, "name": "Charizard"}
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Ruinamaníaco",
+        "image": "img/imagen2.png",
+        "pokemon": [
+          {"id": 6, "name": "Starmie"},
+          {"id": 7, "name": "Psyduck"},
+          {"id": 8, "name": "Togepi"},
+          {"id": 9, "name": "Gyarados"},
+          {"id": 10, "name": "Lapras"}
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Triatleta",
+        "image": "img/imagen3.png",
+        "pokemon": [
+          {"id": 11, "name": "Dragonite"},
+          {"id": 12, "name": "Charizard"},
+          {"id": 13, "name": "Blastoise"},
+          {"id": 14, "name": "Venusaur"},
+          {"id": 15, "name": "Alakazam"}
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Comefuego",
+        "image": "img/imagen4.png",
+        "pokemon": [
+          {"id": 16, "name": "Snorlax"},
+          {"id": 17, "name": "Mewtwo"},
+          {"id": 18, "name": "Arcanine"},
+          {"id": 19, "name": "Gengar"},
+          {"id": 20, "name": "Eevee"}
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Karateka",
+        "image": "img/imagen5.png",
+        "pokemon": [
+          {"id": 21, "name": "Pikachu"},
+          {"id": 22, "name": "Jolteon"},
+          {"id": 23, "name": "Gardevoir"},
+          {"id": 24, "name": "Lucario"},
+          {"id": 25, "name": "Salamence"}
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Policía",
+        "image": "img/imagen6.png",
+        "pokemon": [
+          {"id": 26, "name": "Machamp"},
+          {"id": 27, "name": "Garchomp"},
+          {"id": 28, "name": "Greninja"},
+          {"id": 29, "name": "Tyranitar"},
+          {"id": 30, "name": "Mew"}
+            ]
+      }, 
+      {
+        "id": 7,
+        "name": "Ornitólogo",
+        "image": "img/imagen7.png",
+        "pokemon": [
+          {"id": 31, "name": "Blaziken"},
+          {"id": 32, "name": "Gardevoir"},
+          {"id": 33, "name": "Metagross"},
+          {"id": 34, "name": "Sceptile"},
+          {"id": 35, "name": "Milotic"}
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Mayordomo",
+        "image": "img/imagen8.png",
+        "pokemon": [
+          {"id": 36, "name": "Gallade"},
+          {"id": 37, "name": "Infernape"},
+          {"id": 38, "name": "Empoleon"},
+          {"id": 39, "name": "Luxray"},
+          {"id": 40, "name": "Staraptor"}
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Veraneante",
+        "image": "img/imagen9.png",
+        "pokemon": [
+          {"id": 41, "name": "Gyarados"},
+          {"id": 42, "name": "Salamence"},
+          {"id": 43, "name": "Dragonite"},
+          {"id": 44, "name": "Togekiss"},
+          {"id": 45, "name": "Lucario"}
+        ]
+      }, {
+        "id": 10,
+        "name": "Propietario",
+        "image": "img/imagen10.png",
+        "pokemon": [
+          {"id": 46, "name": "Espeon"},
+          {"id": 47, "name": "Umbreon"},
+          {"id": 48, "name": "Garchomp"},
+          {"id": 49, "name": "Gengar"},
+          {"id": 50, "name": "Snorlax"}
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Buceador",
+        "image": "img/imagen11.png",
+        "pokemon": [
+          {"id": 51, "name": "Alakazam"},
+          {"id": 52, "name": "Tyranitar"},
+          {"id": 53, "name": "Machamp"},
+          {"id": 54, "name": "Vaporeon"},
+          {"id": 55, "name": "Gardevoir"}
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Escolar",
+        "image": "img/imagen12.png",
+        "pokemon": [
+          {"id": 56, "name": "Charizard"},
+          {"id": 57, "name": "Blastoise"},
+          {"id": 58, "name": "Venusaur"},
+          {"id": 59, "name": "Jolteon"},
+          {"id": 60, "name": "Flareon"}
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Buceadora",
+        "image": "img/imagen13.png",
+        "pokemon": [
+          {"id": 61, "name": "Gyarados"},
+          {"id": 62, "name": "Dragonite"},
+          {"id": 63, "name": "Salamence"},
+          {"id": 64, "name": "Metagross"},
+          {"id": 65, "name": "Garchomp"}
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Dominguera",
+        "image": "img/imagen14.png",
+        "pokemon": [
+          {"id": 66, "name": "Espeon"},
+          {"id": 67, "name": "Umbreon"},
+          {"id": 68, "name": "Milotic"},
+          {"id": 69, "name": "Lucario"},
+          {"id": 70, "name": "Gengar"}
+        ]
+      }
+ 
+ 
+    ]
+  }
+  

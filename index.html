@@ -1,17 +1,54 @@
-<html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">        
-        <meta name="description" content="">
-        <title>PC4_Urbano</title>
-        <link rel="stylesheet" href="app/src/css/css.css">        
-    </head>
-    <body>
-        <div id="app">
-            CARGANDOOOOOOOOOO ..... 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenadores Pokémon</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div id="app">
+        <h1>BATALLA POKEMON</h1>
+
+        <div class="button-container">
+            <button @click="iniciarBatalla"
+                    :class="{ 'active': puedeIniciarBatalla, 'disabled': !puedeIniciarBatalla }"
+                    :disabled="!puedeIniciarBatalla"
+                    class="custom-button">Nuevo Enfrentamiento </button>
         </div>
-    </body>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script type="module" src="app/src/app.js"></script>
+        <br><br>
+        <div v-if="mostrarMensajeBatalla" class="battle-message-container">
+            <div class="battle-message">
+                Nuevo Enfrentamiento entre <span class="trainer-name">{{ entrenador1.name }}</span> vs <span class="trainer-name">{{ entrenador2.name }}</span>
+            
+            </div>
+        </div>
+        <br><br>
+
+        <div class="trainers">
+            <div v-for="entrenador in entrenadores" :key="entrenador.id" class="trainer-card">
+                
+                <h2>{{ entrenador.id }} - {{ entrenador.name }}</h2>
+                <img :src="entrenador.image" alt="Imagen de {{ entrenador.name }}" class="trainer-image">
+                
+                <div class="buttons-container">
+                    <button @click="mostrarPokemon(entrenador.id)">Ver Pokémon</button>
+
+                    <div v-if="detallesEntrenadorSeleccionado === entrenador.id" class="pokemon-list">
+                        <ul>
+                            <li v-for="pokemon in entrenador.pokemon" :key="pokemon.id"> {{ pokemon.name }}</li>
+                        </ul>
+                    </div>
+                    <button @click="alternarSeleccion(entrenador.id)" v-if="!entrenadorSeleccionado(entrenador.id)">Seleccionar para combate</button>
+                    <button @click="alternarSeleccion(entrenador.id)" :class="{ 'select-button-selected': entrenadorSeleccionado(entrenador.id) }" v-if="entrenadorSeleccionado(entrenador.id)">Cancelar selección</button>
+                  
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="app.js"></script>
+</body>
 </html>
